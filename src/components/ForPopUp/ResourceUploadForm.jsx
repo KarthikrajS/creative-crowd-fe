@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import api from "../../api";
 import { useAuth } from "../../context/AuthContext";
-import { handleFileUpload } from "../../services/UploadFile.js";
+
 // import Select from "react-select/dist/declarations/src/Select";
 import Select from "react-select";
+import { handleFileUpload } from "../../services/uploadFile";
 
 const ResourceUploadForm = (props) => {
   const { setImages, setAudios, setVideos, handleClose } = props;

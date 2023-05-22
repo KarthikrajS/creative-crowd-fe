@@ -61,7 +61,7 @@ export const handleFileUpload = async (file) => {
 
     // Upload the file to Firebase Storage
     // await storageRef.put(file);
-    await uploadBytes(storageRef, file)
+    await uploadBytes(storageRef, file);
 
     // Get the download URL of the uploaded file
     const downloadURL = await getDownloadURL(storageRef);
