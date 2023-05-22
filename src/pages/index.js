@@ -1,0 +1,10 @@
+export { default as HomePage } from "./HomePage";
+export { default as SearchPage } from "./SearchPage";
+export { default as TutorProfilePage } from "./TutorProfilePage";
+export { default as StudentSignInPage } from "./StudentSignInPage";
+export { default as StudentFriendPage } from "./StudentFriendPage";
+export { default as ResourcesPage } from "./ResourcesPage";
+export { default as LandingPage } from "./LandingPage";
+export { default as ViewProfilePage } from "./ViewProfilePage";
+export { default as StudentBookingPage } from "./StudentBookingPage";
+export { default as BookingDetailsPage } from "./BookingDetailsPage";
