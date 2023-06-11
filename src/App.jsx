@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Footer, LoginForm, Navbar, Popup, SignupForm } from "./components";
+import { Footer, LoginForm, Navbar, Popup, SignupForm, Chat } from "./components";
 import {
   BookingDetailsPage,
   HomePage,
@@ -161,6 +161,10 @@ function App() {
 
               {isLoggedIn && (
                 <Route path="/meeting/:id" element={<BookingDetailsPage />} />
+              )}
+
+              {isLoggedIn && (
+                <Route path="/chat" element={<Chat/>} />
               )}
 
               {/* <Route path="/about" component={About} /> */}

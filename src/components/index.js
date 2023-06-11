@@ -12,6 +12,7 @@ export { default as Profile } from "./ForViewProfile/Profile"
 export { default as FriendSlider } from "./ForLanding/FriendSlider"
 export { default as TutorSlider } from "./ForLanding/TutorSlider"
 export { default as Footer } from "./Footer"
+export { default as Chat } from "./Chat"
 
 export { default as StudentCalendar } from "./ForBooking/StudentCalendar"
 export { default as StudentCalendarNew } from "./ForBooking/StudentCalendarNew"
