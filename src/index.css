@@ -1936,6 +1936,7 @@ p {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  
   .lg\:px-8{
     padding-left: 2rem;
     padding-right: 2rem;
